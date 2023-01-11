@@ -29,86 +29,16 @@ export default function Customers(){
 
                     <div className="userData">
                         <span className="userName">Viren Chauhan</span>
-                        <span className="userAddress">Enter Address</span>
-                        <span className="userMobile">mobile no</span>
-                        <span className="userEmail">Enter Email</span>
+                        <span className="userAddress">Bhavnagar</span>
+                        <span className="userMobile">94XXXXXX87</span>
+                        <span className="userEmail">virenchauhan.secure@gmail.com</span>
                         <span className="userAction"><MoreVertOutlined /></span>
                     </div>
                     <div className="userData">
-                        <span className="userName">Viren Chauhan</span>
-                        <span className="userAddress">Enter Address</span>
-                        <span className="userMobile">mobile no</span>
-                        <span className="userEmail">Enter Email</span>
-                        <span className="userAction"><MoreVertOutlined /></span>
-                    </div>
-                    <div className="userData">
-                        <span className="userName">Viren Chauhan</span>
-                        <span className="userAddress">Enter Address</span>
-                        <span className="userMobile">mobile no</span>
-                        <span className="userEmail">Enter Email</span>
-                        <span className="userAction"><MoreVertOutlined /></span>
-                    </div>
-                    <div className="userData">
-                        <span className="userName">Viren Chauhan</span>
-                        <span className="userAddress">Enter Address</span>
-                        <span className="userMobile">mobile no</span>
-                        <span className="userEmail">Enter Email</span>
-                        <span className="userAction"><MoreVertOutlined /></span>
-                    </div>
-                    <div className="userData">
-                        <span className="userName">Viren Chauhan</span>
-                        <span className="userAddress">Enter Address</span>
-                        <span className="userMobile">mobile no</span>
-                        <span className="userEmail">Enter Email</span>
-                        <span className="userAction"><MoreVertOutlined /></span>
-                    </div>
-                    <div className="userData">
-                        <span className="userName">Viren Chauhan</span>
-                        <span className="userAddress">Enter Address</span>
-                        <span className="userMobile">mobile no</span>
-                        <span className="userEmail">Enter Email</span>
-                        <span className="userAction"><MoreVertOutlined /></span>
-                    </div>
-                    <div className="userData">
-                        <span className="userName">Viren Chauhan</span>
-                        <span className="userAddress">Enter Address</span>
-                        <span className="userMobile">mobile no</span>
-                        <span className="userEmail">Enter Email</span>
-                        <span className="userAction"><MoreVertOutlined /></span>
-                    </div>
-                    <div className="userData">
-                        <span className="userName">Viren Chauhan</span>
-                        <span className="userAddress">Enter Address</span>
-                        <span className="userMobile">mobile no</span>
-                        <span className="userEmail">Enter Email</span>
-                        <span className="userAction"><MoreVertOutlined /></span>
-                    </div>
-                    <div className="userData">
-                        <span className="userName">Viren Chauhan</span>
-                        <span className="userAddress">Enter Address</span>
-                        <span className="userMobile">mobile no</span>
-                        <span className="userEmail">Enter Email</span>
-                        <span className="userAction"><MoreVertOutlined /></span>
-                    </div>
-                    <div className="userData">
-                        <span className="userName">Viren Chauhan</span>
-                        <span className="userAddress">Enter Address</span>
-                        <span className="userMobile">mobile no</span>
-                        <span className="userEmail">Enter Email</span>
-                        <span className="userAction"><MoreVertOutlined /></span>
-                    </div>
-                    <div className="userData">
-                        <span className="userName">Viren Chauhan</span>
-                        <span className="userAddress">Enter Address</span>
-                        <span className="userMobile">mobile no</span>
-                        <span className="userEmail">Enter Email</span>
-                        <span className="userAction"><MoreVertOutlined /></span>
-                    </div>
-                    <div className="userData">
-                        <span className="userName">Viren Chauhan</span>
-                        <span className="userAddress">Enter Address</span>
-                        <span className="userMobile">mobile no</span>
-                        <span className="userEmail">Enter Email</span>
+                        <span className="userName">Milan Makwana</span>
+                        <span className="userAddress">Bhavnagar</span>
+                        <span className="userMobile">63XXXXXX65</span>
+                        <span className="userEmail">milan.protect@gmail.com</span>
                         <span className="userAction"><MoreVertOutlined /></span>
                     </div>
                 </div>

@@ -14,7 +14,7 @@ export default function Top(){
                     <div className="signIn">
                         <img className="profilePicture" src="" alt="" />
                         <div className="name">
-                            <span>John Doe</span>
+                            <span>Viren</span>
                             <span><ArrowDropDownOutlined/></span>
                             <div className="option">
                                 <div>
