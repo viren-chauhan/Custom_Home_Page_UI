@@ -1,0 +1,191 @@
+.container{
+    height: 22vh;
+    width: 77.9vw;
+    // background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    // justify-content: space-between;
+    position: relative;
+    
+    .top{
+        // background-color: red;
+        height: 6vh;
+        width: 77.9vw;
+        margin-top: 5vh ;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        .search{
+            width: 20vw;
+            height: 6vh;
+            background-color: white;
+            border-radius: 7px;
+            position: relative;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-start;
+            border: 1px solid lightgray;
+            overflow: hidden;
+    
+            .icon{
+                font-size: 30px;
+                margin: 0.7vw;
+                position: relative;
+                cursor: pointer;
+                
+            }
+    
+            .searchBox{
+                position: relative;
+                height: 6vh;
+                width: 15vw;
+                font-size: 18px;
+                border: none;
+            }
+        }
+
+        .profile{
+            height: 6vh;
+            width: 14vw;
+            border-radius: 7px;
+            display: flex;
+            flex-direction: row;
+            position: relative;
+            justify-content: space-between;
+            align-items: center;
+            // background-color: pink;
+            margin: auto 1.5vw;
+
+
+            .notificationIcon{
+                height: 6vh;
+                width: 2vw;
+                // background-color: brown;
+                cursor: pointer;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                margin: auto 1vw;
+            }
+
+            .signIn{
+                background-color: white;
+                height:6vh;
+                width: 10vw;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                border-radius: 7px;
+                overflow: hidden;
+
+                .profilePicture{
+                    background-color: black;
+                    height: 5vh;
+                    width: 2.5vw;
+                    margin: auto 0.6vw;
+                    border-radius: 50%;
+                }
+
+                .name{
+                    height: 6vh;
+                    width: 9vw;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content:flex-start;
+                    // background-color: aqua;
+                    cursor: pointer;
+
+                    span{
+                        font-size: 17px;
+                        // background-color: chartreuse;
+                        height: 6vh;
+                        width: fit-content;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        justify-content: center;
+                        cursor: pointer;
+                    }
+                    .option{
+                        display: none;
+                        position: absolute;
+                        border-radius: 7px;
+                        background-color:white;
+                        border-radius: 7px;
+
+                        span{
+                            height: 5vh;
+                            width: 6.3vw; 
+                            
+                            &:hover{
+                                background-color: orangered;
+                                transition: all 0.1s ease;
+                                color: white;
+                            }
+                        }
+                    }
+
+                    &:hover{
+                        .option{
+                            margin-top: 16.3vh;
+                            display: flex;
+                            flex-direction: column;
+                            // position: absolute ;
+
+                            .options{
+                                border-radius: 7px;
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .heading{
+        
+        height: 6vh;
+        width: 77.9vw;
+        // background-color: aqua;
+        margin-top: 3vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        span{
+            font-size: 22px;
+            font-weight: 700;
+        }
+
+        button{
+            background-color: orangered;
+            height: 6vh;
+            color: white;
+            cursor: pointer;
+            width:fit-content;
+            padding: 2vh 1vw;
+            border-radius: 7px;
+            margin: 0 1.3vw;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            &:hover{
+                background-color: rgb(255, 38, 0);
+            }
+            .addUserIcon{
+                margin-right: 0.7vw;
+            }
+        }
+    }
+}

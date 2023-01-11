@@ -1,0 +1,209 @@
+.box{
+    
+    position: absolute;    
+    margin-top: 22vh;
+    height: 64.5vh;
+    width: 77.9vw;
+    // background-color: blueviolet;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    
+
+    .info{
+        background-color:white;
+        height: 64.5vh;
+        width: 76.7vw;
+        position: relative;
+        border-radius: 7px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        // justify-content: start;
+        
+
+        .top{
+            // background-color: aqua;
+            height: 5.5vh;
+            width: 76.7vw;
+            margin: 1vh 0;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            .search{
+                height: 5.5vh;
+                width: 18vw;
+                margin: 0px 1vw;
+                border-radius: 7px;
+                border: 1px solid gray;
+                display: flex;
+                flex-direction: row;
+                // background-color: chartreuse;
+                align-items: center;
+                justify-content: center;
+                overflow: hidden;
+
+                span{
+                    height: 5.5vh;
+                    padding: 0 0.5vw;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: white;
+
+                    .icon{
+                        cursor: pointer;
+                    }
+                }
+                .searchBox{
+                    height: 5.4vh;
+                    width: 15vw;
+                    border: none;
+                }
+
+                .questionIcon{
+                    font-size: 15px;
+                }
+            }
+
+            .filter{
+                height: 5.5vh;
+                width: 5.7vw;
+                background-color: white;
+                margin: 0 1vw;
+                border-radius: 7px;
+                border: 1px solid gray;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-around;
+
+                span{
+                    // padding: 0 0.6vw;
+                    margin: 0 0.6vw;
+                    // background-color: chartreuse;
+                }
+
+                .filterIcon{
+                    font-size: 16px;
+                    // background-color: aqua;
+                    cursor: pointer;
+                    margin: 0 0.6vw;
+                }
+            }
+        }
+
+        .user{
+            height: 54.4vh;
+            width: 76.7vw;
+            // background-color: aqua;
+            margin: 1.3vh 0;
+            display: flex;
+            flex-direction: column;
+
+            .infoHeading{
+                height: 3vh;
+                width: 76.7;
+                // background-color: brown;
+                margin-bottom: 1vh ;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+
+                span{
+                    height: 3vh;
+                    display: flex;
+                    flex-direction: row;
+                    font-weight: 400;
+                    align-items: center;
+                    justify-content: flex-start;
+                    // background-color: blue;
+                    // border: 1px solid black;
+                }
+
+                .name{
+                    width: 11vw;
+                    margin-left: 1vw;
+                }
+
+                .address{
+                    width: 13vw;
+                }
+
+                .mobile{
+                    width: 11vw;
+                }
+
+                .email{
+                    width: 14.5vw;
+                }
+
+                .action{
+                    width: 4vw;
+                    // padding: 0 0.5vw;
+                    margin-right: 1vw;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                }
+            }
+
+            .userData{
+                height: 5vh;
+                width: 76.7vw;
+                // background-color:darkorchid;
+                border-bottom: 1px solid gray;
+                display: flex;
+                flex-direction: row;
+                margin-top: 0.5vh ;
+                justify-content: space-between;
+                align-items: center;
+
+                span{
+                    height: 5vh;
+                    display: flex;
+                    flex-direction: row;
+                    font-weight: 600;
+                    align-items: center;
+                    justify-content: flex-start;
+                    // background-color: blue;
+                    // border: 1px solid black;
+                    // overflow:scroll;
+                    // scrollbar-;
+                }
+
+                .userName{
+                    width: 13vw;
+                    margin-left: 1vw;
+                    // background-color:crimson;
+                }
+
+                .userAddress{
+                    width: 15vw;
+                }
+
+                .userMobile{
+                    width: 13vw;
+                }
+
+                .userEmail{
+                    width: 17vw;
+                }
+
+                .userAction{
+                    width: 3vw;
+                    margin-right: 1.4vw;
+                    padding: 0 0.6vw;
+                    cursor: pointer;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+}
